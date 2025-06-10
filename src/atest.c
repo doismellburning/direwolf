@@ -994,6 +994,7 @@ static void usage (void) {
 	dw_printf ("               0 (default) = consider only correct frames.  \n");
 	dw_printf ("               1 = Try to fix only a single bit.  \n");
 	dw_printf ("               more = Try modifying more bits to get a good CRC.\n");
+	dw_printf ("        -e n   Artificially introduce a desired Bit Error Rate (BER) for testing.\n");
 	dw_printf ("\n");
 	dw_printf ("        -d x   Debug information for FX.25.  Repeat for more detail.\n");
 	dw_printf ("\n");
