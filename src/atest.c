@@ -982,7 +982,7 @@ static void usage (void) {
 	dw_printf ("               AIS for ship Automatic Identification System.\n");
 	dw_printf ("               EAS for Emergency Alert System (EAS) Specific Area Message Encoding (SAME).\n");
 	dw_printf ("\n");
-	dw_printf ("        -g     Use G3RUH modem rather rather than default for data rate.\n");
+	dw_printf ("        -g     Use G3RUH modem rather than default for data rate.\n");
 	dw_printf ("        -j     2400 bps QPSK compatible with direwolf <= 1.5.\n");
 	dw_printf ("        -J     2400 bps QPSK compatible with MFJ-2400.\n");
 	dw_printf ("\n");
