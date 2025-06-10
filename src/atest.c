@@ -987,6 +987,8 @@ static void usage (void) {
 	dw_printf ("        -J     2400 bps QPSK compatible with MFJ-2400.\n");
 	dw_printf ("\n");
 	dw_printf ("        -D n   Divide audio sample rate by n.\n");
+	dw_printf ("        -U n   Override automatic upsampling rate for G3RUH,\n");
+	dw_printf ("               improving performance when sample rate to baud ratio is low.\n");
 	dw_printf ("\n");
 	dw_printf ("        -h     Print frame contents as hexadecimal bytes.\n");
 	dw_printf ("\n");
